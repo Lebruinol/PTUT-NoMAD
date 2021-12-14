@@ -1,7 +1,12 @@
 /*fichier CSS NoMAD*/
 #enteteNoMAD {
 	width: 100%;
+	height: 20px;
 	background-color: #FF0000;
+}
+#nav {
+	height: 100%;
+	width: 50px;
 }
 body {
 	background-color: #282a35;
