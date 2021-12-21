@@ -11,6 +11,16 @@ nav {
 	width: 200px;
 	position : fixed;
 }
+.divNav {
+	heigth: 30px;
+	text-align: center;
+	font-family: "Dejavu sans mono";
+}
+#navTitre {
+	heigth: 40px;
+	font-family: "Dejavu sans mono";
+	font-size: 35px;
+}
 body {
 	background-color: #282a35;
 	color: white;
