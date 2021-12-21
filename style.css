@@ -27,6 +27,7 @@ nav {
 	height: 35px;
 	font-family: "Dejavu sans mono";
 	font-size: 35px;
+	padding-bottom: 10;
 }
 #navAccueil {
 	background-color: #00c8de;
