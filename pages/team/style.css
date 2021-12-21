@@ -1,1 +1,41 @@
 /*css presentation dequipe*/
+#enteteNoMAD {
+	width: 100%;
+	height: 50px;
+	background-color: #FF0000;
+	font-family: "Dejavu sans mono";
+	font-size: 45px;
+}
+nav {
+	height: 100%;
+	width: 250px;
+	position : fixed;
+	margin-top: 20px;
+	border-right-width: 1.6;
+}
+.divNav {
+	height: 30px;
+	text-align: center;
+	font-family: "Dejavu sans mono";
+	border-radius: 10px;
+	vertical-align: middle;
+}
+.divNav:hover {
+	background-color: #575759;
+}
+#navTitre {
+	height: 35px;
+	font-family: "Dejavu sans mono";
+	font-size: 35px;
+	padding-bottom: 10;
+}
+#navAccueil {
+	background-color: #00c8de;
+}
+body {
+	background-color: #282a35;
+	color: white;
+}
+#page {
+	padding-left: 250px;
+}
