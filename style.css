@@ -8,23 +8,27 @@
 }
 nav {
 	height: 100%;
-	width: 200px;
+	width: 250px;
 	position : fixed;
 }
 .divNav {
 	heigth: 30px;
 	text-align: center;
 	font-family: "Dejavu sans mono";
+	rounded-corner: 10px;
 }
 #navTitre {
-	heigth: 40px;
+	heigth: 35px;
 	font-family: "Dejavu sans mono";
 	font-size: 35px;
+}
+#navAccueil {
+	background-color: #00c8de;
 }
 body {
 	background-color: #282a35;
 	color: white;
 }
 #page {
-	padding-left: 200px;
+	padding-left: 250px;
 }
