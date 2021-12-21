@@ -18,6 +18,9 @@ nav {
 	border-radius: 10px;
 	vertical-align: middle;
 }
+.divNav:hover {
+	background-color: #575759;
+}
 #navTitre {
 	height: 35px;
 	font-family: "Dejavu sans mono";
