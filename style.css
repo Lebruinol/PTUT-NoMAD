@@ -1,4 +1,18 @@
 /*fichier CSS NoMAD*/
+
+/*CSS PAGE ACCUEIL*/
+
+
+body {
+	background-color: #282a35;
+	color: white;
+}
+.titre1 {
+	font-family: arial,sans-serif;
+	font-size: 30px;
+}
+
+
 #enteteNoMAD {
 	width: 100%;
 	height: 50px;
@@ -6,6 +20,9 @@
 	font-family: "Dejavu sans mono";
 	font-size: 45px;
 }
+
+
+
 nav {
 	height: 100%;
 	width: 250px;
@@ -34,10 +51,54 @@ nav {
 #navAccueil {
 	background-color: #00c8de;
 }
-body {
-	background-color: #282a35;
-	color: white;
-}
+
+
+
 #page {
 	margin-left: 270px;
+}
+
+
+#whatsnew {
+	width: 100%;
+	height: 500px;
+	
+	/*appliquer ici les changements liés au slideshow*/
+	
+	background-image: /*#6200ad*/url(img/progWeb.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: sepia(0.5);
+	color: #00ff91;
+	
+}
+#contenuWhatsNew {
+	font-family: arial,sans-serif;
+	font-size: 20px;
+}
+#wnSlideGauche {
+	height: 100%;
+	width: 30px;
+	background: linear-gradient(to right, black, transparent);
+}
+#wnSlideDroite {
+	position: relative;
+	height: 100%;
+	width: 30px;
+	background: linear-gradient(to left, black, transparent);
+	right: -99%;
+	top: -100%;
+}
+#titreWN {
+	position: relative;
+	top: -200%;
+	margin-left: 40px;
+	filter: sepia(0);
+}
+#contenuWhatsNew {
+	position: relative;
+	top: -200%;
+	margin-top: 10px;
+	margin-left: 40px;
+	filter: sepia(0);
 }

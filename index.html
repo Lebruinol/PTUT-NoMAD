@@ -1,4 +1,9 @@
 <!DOCTYPE HTML>
+
+
+<!--PAGE ACCUEIL-->
+
+
 <html lang="fr">
 <head>
 	<meta name="author" content="Corentin Mucci">
@@ -7,7 +12,6 @@
 	<meta name="publisher" content="Corentin Mucci">
 	<link rel="stylesheet" href="style.css">
 	<link rel="icon" href="img/favicon.ico">
-	<script type="text/javascript" src="scriptAcc.js"></script>
 	<title>NoMAD</title>
 </head>
 
@@ -25,10 +29,21 @@
 <div id="page">
 <h1>Site en construction...</h1>
 	<p>Attention aux gravats</p>
+	<h1>What's new?</h1>
+	<div id="whatsnew">
+		<!--<div id="slideWhatsNew" class="arrierePlan">
+		</div>-->
+		<div id="wnSlideGauche" onclick="carrousselSlideGauche()"></div>
+		<div id="wnSlideDroite"></div>
+		<div id="titreWN" class="titre1">Site Web en cours de création</div>
+		<div id="contenuWhatsNew">
+			<p id="test">Imaginez un magnifique site présentant le projet, documentant les ressources, un site étalant les richesses du projet.</br>Et bien c'est pour bientôt.</p>
+		</div>	
+	</div>
 
 
-
-
+<input type="button" value="essai clic" onclick="carrousselSlideGauche()">
 </div>
 </body>
+<script type="text/javascript" src="scriptAcc.js"></script>
 </html>
