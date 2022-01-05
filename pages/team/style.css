@@ -39,5 +39,21 @@ body {
 	color: white;
 }
 #page {
-	padding-left: 250px;
+	padding-left: 270px;
+}
+
+.nomEquipier {
+	font-size: 25px;
+	font-family: "Dejavu sans mono";
+	color: white;
+}
+
+.fonctionEquipier {
+	font-size: 18px;
+	font-family: "Dejavu sans mono";
+	color: #b1b1b3;
+}
+
+.missionEquipier {
+	font-family: "Dejavu sans mono";
 }
