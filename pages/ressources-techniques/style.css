@@ -41,3 +41,15 @@ body {
 #page {
 	padding-left: 270px;
 }
+
+
+.presSP {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.presSPTitre {
+	font-size: 15px;
+}
+.presSPtxt {
+	
