@@ -56,11 +56,12 @@ nav {
 
 #page {
 	margin-left: 270px;
+	font-family: "Dejavu sans mono";
 }
 
 
 #whatsnew {
-	width: 100%;
+	width: 99%;
 	height: 500px;
 	
 	/*appliquer ici les changements liés au slideshow*/
@@ -72,10 +73,6 @@ nav {
 	color: #00ff91;
 	
 }
-#contenuWhatsNew {
-	font-family: arial,sans-serif;
-	font-size: 20px;
-}
 #wnSlideGauche {
 	height: 100%;
 	width: 30px;
@@ -86,19 +83,37 @@ nav {
 	height: 100%;
 	width: 30px;
 	background: linear-gradient(to left, black, transparent);
-	right: -99%;
+	right: -98%;
 	top: -100%;
 }
+#wnSlideGauche:hover {
+	height: 100%;
+	width: 30px;
+	background: linear-gradient(to right, red, transparent);
+}
+#wnSlideDroite:hover {
+	position: relative;
+	height: 100%;
+	width: 30px;
+	background: linear-gradient(to left, red, transparent);
+	right: -98%;
+	top: -100%;
+}
+
+
+
 #titreWN {
 	position: relative;
 	top: -200%;
 	margin-left: 40px;
 	filter: sepia(0);
 }
-#contenuWhatsNew {
+#texteWN {
 	position: relative;
 	top: -200%;
 	margin-top: 10px;
 	margin-left: 40px;
 	filter: sepia(0);
+	font-family: arial,sans-serif;
+	font-size: 20px;
 }
